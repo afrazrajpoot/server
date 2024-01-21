@@ -1,0 +1,38 @@
+# Node.js
+node_modules/
+
+# Package files
+package.json
+package-lock.json
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Environment
+.env
+
+# Dependency directories
+jspm_packages/
+
+# Debugging
+.vscode/
+
+# Editor directories and files
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.bak
+*.backup
+*.swp
