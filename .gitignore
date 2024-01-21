@@ -1,10 +1,6 @@
 # Node.js
 node_modules/
 
-# Package files
-package.json
-package-lock.json
-
 # Logs
 logs
 *.log
@@ -36,3 +32,9 @@ Thumbs.db
 *.bak
 *.backup
 *.swp
+
+# MongoDB data directory
+/data/db
+
+# Production build
+/dist/
