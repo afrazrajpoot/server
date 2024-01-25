@@ -6,12 +6,15 @@ const { errorMidle } = require('./middleware/errorMideleware');
 const CoustomError = require('./utils/coustomError');
 const cors = require('cors')
 const cookieParser = require("cookie-parser")
+const path = require('path')
+
 app.use(cors({
     origin:'http://localhost:3000',
     optionsSuccessStatus:200,
     credentials:true,
     methods:['GET','POST','DELETE','PUT']
 }))
+app.use(express.static('public'))
 app.use(express.json());
 app.use(cookieParser());
 app.use('/api/v1/',userRoutes);

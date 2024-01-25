@@ -23,6 +23,14 @@ const userModel = new mongoose.Schema(
           message: 'Invalid email format',
         },
       },
+      avatar: {
+        type: String,
+        
+      },
+      coverImage: {
+        type: String,
+       
+      }
   },
   { timestamps: true }
 );
